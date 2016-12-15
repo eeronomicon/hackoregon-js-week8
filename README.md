@@ -3,6 +3,7 @@ Hack Oregon JavaScript Fundamentals Week 8 Exercises and Project
 
 # Final Project
 
+## Instructions and Requirements
 * Take at least one value of user input
 * Use your user input value to customize the API query
 * Fetch and parse data using the vanilla JavaScript methods we’ve gone over in class
@@ -27,3 +28,19 @@ HINT: How can you access the value of an input field? Use document.getElementByI
 * Example: https://github.com/flamingveggies/trimetappexample
 
 Need an idea for an API? https://github.com/toddmotto/public-apis
+
+## Gimme Rekkids!
+
+### User Story:
+As a volunteer DJ at a community radio station, I would like to find out the album name and record label of the track that I'm playing off my phone/tablet/laptop, as digital files often lack that information which is required by the radio station's Programming Committee.
+
+### Workflow
+* The user enters either the artist name, song title, or both and then clicks on the "Go!" button.
+* The app makes a query to the Discogs.com database and returns a list of albums that match the search criteria.
+* The data from the API call is displayed in a formatted list.
+
+### Technologies Used
+JavaScript, HTML5, Bootstrap, and the Discogs.com search API.
+
+### Note
+The Discogs.com API requires a key. You can get one by registering with the site.
